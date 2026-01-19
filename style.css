@@ -3614,6 +3614,7 @@ body {
     border: none;
     cursor: pointer;
     transition: background 0.3s ease;
+    margin-top: auto;
 }
 
 .snapshot-cta:hover {
@@ -3632,9 +3633,11 @@ body {
     }
 
     .snapshot-info {
-        order: 2;
-        /* Info second on mobile */
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
+
 }
 
 @media (max-width: 768px) {
