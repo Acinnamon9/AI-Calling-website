@@ -4043,3 +4043,195 @@ body {
         margin-right: auto;
     }
 }
+
+
+.speed-lead-section {
+    padding: 100px 20px;
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    text-align: center;
+}
+
+.speed-lead-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.speed-lead-header {
+    margin-bottom: 40px;
+}
+
+.speed-brand {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff5722;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.speed-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.speed-subtitle {
+    font-size: 20px;
+    color: #666;
+}
+
+.speed-form-card {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.speed-input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.speed-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+.speed-input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.speed-input:focus {
+    border-color: #ff5722;
+    box-shadow: 0 0 0 4px rgba(255, 87, 34, 0.1);
+}
+
+.speed-phone-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+/* Country Dropdown for Speed Section */
+.speed-country-select {
+    position: relative;
+    width: 140px;
+    flex-shrink: 0;
+}
+
+.speed-country-display {
+    width: 100%;
+    height: 56px;
+    /* Match input height */
+    padding: 0 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.speed-country-display:hover {
+    border-color: #cbd5e1;
+}
+
+.speed-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    margin-top: 8px;
+    z-index: 100;
+    display: none;
+    overflow: hidden;
+}
+
+.speed-dropdown-menu.active {
+    display: block;
+}
+
+.speed-search-box {
+    padding: 12px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.speed-search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.speed-options-list {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.speed-option {
+    padding: 10px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s;
+}
+
+.speed-option:hover {
+    background: #f8fafc;
+}
+
+.speed-submit-btn {
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(135deg, #ff5722 0%, #ff8a65 100%);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    box-shadow: 0 10px 20px rgba(255, 87, 34, 0.2);
+}
+
+.speed-submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(255, 87, 34, 0.3);
+}
+
+.speed-submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.speed-disclaimer {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.5;
+}
